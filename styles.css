@@ -59,4 +59,18 @@ footer {
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
 }
-
+.image-container {
+    text-align: center; /* Center-aligns the content */
+    margin: 20px auto; /* Adds spacing and centers the figure */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .image-container figcaption {
+    font-size: 14px; /* Adjusts the caption text size */
+    color: #555; /* Gives the text a softer color */
+    margin-top: 8px; /* Adds some space above the caption */
+  }  
