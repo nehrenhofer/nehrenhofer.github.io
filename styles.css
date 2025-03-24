@@ -75,3 +75,12 @@ footer {
     color: #555; /* Gives the text a softer color */
     margin-top: 8px; /* Adds some space above the caption */
   }  
+  .skills-list {
+    display: grid; /* Turns the container into a grid */
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 10px; /* Adds space between items */
+    list-style-type: circle; /* defines bullet point style*/
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  
